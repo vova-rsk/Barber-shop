@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"/home/runner/work/barber-shop/barber-shop/src/images/prices/prices-bg-img-768.png":[["prices-bg-img-768.7cce1ab0.png","Tjre"],"Tjre"],"/home/runner/work/barber-shop/barber-shop/src/images/prices/prices-bg-img-768@2x.png":[["prices-bg-img-768@2x.418a0549.png","TC2G"],"TC2G"],"/home/runner/work/barber-shop/barber-shop/src/images/prices/prices-bg-img-480.png":[["prices-bg-img-480.6e8abc7e.png","WagL"],"WagL"],"/home/runner/work/barber-shop/barber-shop/src/images/prices/prices-bg-img-480@2x.png":[["prices-bg-img-480@2x.2d13298c.png","+sky"],"+sky"],"/home/runner/work/barber-shop/barber-shop/src/images/prices/prices-bg-img-1280.png":[["prices-bg-img-1280.c9a1850d.png","nQVr"],"nQVr"],"/home/runner/work/barber-shop/barber-shop/src/images/prices/prices-bg-img-1280@2x.png":[["prices-bg-img-1280@2x.45bbd19a.png","uiAN"],"uiAN"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/barber-shop/src.de487352.js.map
+//# sourceMappingURL=/barber-shop/src.6ef0e7e9.js.map

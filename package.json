@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://vova-rsk.github.io/barber-shop-notfork",
+  "homepage": "https://vova-rsk.github.io/barber-shop",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /barber-shop-notfork/"
+    "build": "parcel build src/*.html --public-url /barber-shop/"
   },
   "repository": {
     "type": "git",

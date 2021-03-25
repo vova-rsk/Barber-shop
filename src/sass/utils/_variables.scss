@@ -1,0 +1,20 @@
+:root {
+  /* Набор основной цветовой гаммы фона и текста */
+  --main-bg-color: #fff;
+  --secondary-bg-color: #191c26;
+  --main-txt-color: #303030;
+  --secondary-txt-color: #fff;
+  --third-txt-color: #555555;
+  --fourth-txt-color: #9da4bd;
+  --accent-color: #ff6c00;
+
+  /* Имена и семейство используемых шрифтов */
+  --main-font-name: 'Open Sans';
+  --main-font-family: sans-serif;
+  --secondary-font-name: 'Raleway';
+  --secondary-font-family: sans-serif;
+
+  /* Параметры для использования трансфомации */
+  --delay: 1500ms;
+  --time-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

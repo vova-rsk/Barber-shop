@@ -1,30 +1,11 @@
 <section class="section section-about">
   <div class="container section-about__container">
-    <ul class="list section-about__image-list">
-      <li class="item section-about__image-item">
-        <div class="thumb">
-          <img
-            class="image section-about__image"
-            src="/images/about/about-img1-330.jpg"
-            alt=""
-            width="270"
-          />
-        </div>
-      </li>
-      <li class="item section-about__image-item">
-        <div class="thumb">
-          <img
-            class="image section-about__image"
-            src="/images/about/about-img2-330.jpg"
-            alt=""
-            width="270"
-          />
-        </div>
-      </li>
-    </ul>
     <div class="group-info section-about__group-info">
       <p class="pre-title section-about__pre-title">О нас</p>
-      <h2 class="title section-about__title">Лучший Барбершоп твоего города</h2>
+      <h2 class="title section-about__title">
+        Лучший Барбершоп <br />
+        твоего города
+      </h2>
       <p class="title-description section-about__title-description">
         Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.
       </p>
@@ -34,7 +15,44 @@
         всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого,
         кто к нам приходит!
       </p>
-      <button class="button section-about__button-recording">Онлайн-запись</button>
+      <button class="button section-about__online-recording">Онлайн-запись</button>
     </div>
+    <ul class="list section-about__image-list">
+      <li class="item section-about__image-item">
+        <div class="section-about__image-thumb">
+          <picture class="section-barba__image">
+            <source
+              srcset="/images/about/about-img1-270.jpg 1x, /images/about/about-img1-270@2x.jpg 2x"
+              media="(min-width:1280px)"
+              type="image/jpeg"
+            />
+            <source
+              srcset="/images/about/about-img1-330.jpg 1x, /images/about/about-img1-330@2x.jpg 2x"
+              media="(min-width:768px)"
+              type="image/jpeg"
+            />
+
+            <img src="/images/about/about-img1-330.jpg" alt="фото пример №1" width="330" />
+          </picture>
+        </div>
+      </li>
+      <li class="item section-about__image-item">
+        <div class="section-about__image-thumb">
+          <picture class="section-barba__image">
+            <source
+              srcset="/images/about/about-img2-270.jpg 1x, /images/about/about-img2-270@2x.jpg 2x"
+              media="(min-width:1280px)"
+              type="image/jpeg"
+            />
+            <source
+              srcset="/images/about/about-img2-330.jpg 1x, /images/about/about-img2-330@2x.jpg 2x"
+              media="(min-width:768px)"
+              type="image/jpeg"
+            />
+            <img src="/images/about/about-img2-330.jpg" alt="фото пример №2" width="330" />
+          </picture>
+        </div>
+      </li>
+    </ul>
   </div>
 </section>

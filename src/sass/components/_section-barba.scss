@@ -1,3 +1,65 @@
+.section-barba__group-info {
+  margin-bottom: 44px;
+}
+
+.section-barba__pre-title {
+  margin: 0;
+
+  font-family: var(--main-font-name), var(--main-font-family);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.901;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--main-txt-color);
+
+  &::before {
+    content: '';
+    display: inline-block;
+    flex-shrink: 0.1;
+    margin-right: 20px;
+    width: 60px;
+    height: 1px;
+
+    vertical-align: middle;
+    border-top: 1px solid currentColor;
+  }
+}
+
+.section-barba__list {
+  --table-gap: 30px;
+  --elements-quantity: 4;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--table-gap));
+    margin-left: calc(-1 * var(--table-gap));
+  }
+}
+
+.section-barba__item {
+  @media (max-width: 767px) {
+    &:not(:first-child) {
+      margin-top: 30px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    flex-basis: calc(
+      (100% - var(--elements-quantity) * var(--table-gap)) / var(--elements-quantity)
+    );
+    margin-top: var(--table-gap);
+    margin-left: var(--table-gap);
+  }
+}
+
 .section-barba__thumb {
   width: 100%;
   background-color: gray;

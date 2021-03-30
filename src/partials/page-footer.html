@@ -1,69 +1,82 @@
 <footer class="page-footer">
-  <div class="page-footer__background-thumb">
-    <div class="container page-footer__container">
-      <div class="group-onlineRecord section-sign__group-onlineRecord">
-        <h2 class="title section-sign__title">Онлайн-запись</h2>
-        <form class="signform">
-          <input
-            class="input signform__input"
-            type="text"
-            name="name"
-            id="name"
-            placeholder="имя*"
-          />
-          <input
-            class="input signform__input"
-            type="tel"
-            name="tel"
-            id="tel"
-            placeholder="телефон*"
-          />
-          <textarea
-            class="textarea signform__textarea"
-            name="msg"
-            id="msg"
-            cols="20"
-            rows="3"
-            placeholder="сообщение"
-          ></textarea>
-          <button class="button signform__button" type="submit">отправить</button>
-        </form>
+  <div class="page-footer__unit page-footer__unit--top">
+    <div class="page-footer__background-thumb">
+      <div class="container page-footer__container">
+        <div class="sign-group page-footer__sign-group">
+          <h2 class="title sign-group__title page-footer__title">Онлайн-запись</h2>
+          <form class="sign-form">
+            <input
+              class="input sign-form__input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="имя*"
+            />
+            <input
+              class="input sign-form__input"
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="телефон*"
+            />
+            <textarea
+              class="textarea sign-form__textarea"
+              name="msg"
+              id="msg"
+              cols="20"
+              rows="3"
+              placeholder="сообщение"
+            ></textarea>
+            <button class="button sign-form__button-submit" type="submit">отправить</button>
+          </form>
+        </div>
       </div>
-
-      <div class="group-adressInfo">
-        <div class="group-adressInfo__container">
-          <h2 class="title group-addressInfo__title">Контакты</h2>
-          <address class="group-addressInfo__address">
-            <a class="link group-addressInfo__link" href="">ул. Васильковая, 7А<br />Киев, 08132</a>
-            <a class="link group-addressInfo__link" href="tel:+380441111111">+38 044 111 11 11</a>
-            <a class="link group-addressInfo__link" href="mailto:barbershop@email.com"
+    </div>
+    <div class="page-footer__background-thumb page-footer__background-thumb--is-shown">
+      <div class="container page-footer__container">
+        <div class="adressInfo-group page-footer__adressInfo-group">
+          <h2 class="title adressInfo-group__title page-footer__title">Контакты</h2>
+          <address class="adressInfo-group__address">
+            <a class="link adressInfo-group__link" href="">
+              <span class="adressInfo-group__link-text adressInfo-group__link-text--withoutBreak"
+                >ул. Васильковая, 7А, Киев, 08132</span
+              >
+              <span class="adressInfo-group__link-text adressInfo-group__link-text--withBreak"
+                >ул. Васильковая, 7А<br />
+                Киев, 08132</span
+              >
+            </a>
+            <a class="link adressInfo-group__link" href="tel:+380441111111">+38 044 111 11 11</a>
+            <a class="link adressInfo-group__link" href="mailto:barbershop@email.com"
               >barbershop@email.com</a
             >
           </address>
         </div>
 
-        <div class="group-workTime">
-          <p class="pre-title group-workTime__pre-title">время работы</p>
-          <p class="group-workTime__time">Ежедневно с 9:00 до 22:00</p>
+        <div class="workTime-group">
+          <p class="pre-title workTime-group__pre-title page-footer__pre-title">время работы</p>
+          <p class="workTime-group__time">Ежедневно с 9:00 до 22:00</p>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div class="group-copyright">
-        <p class="group-copyright__copyright">&#xa9; Copyright 2020</p>
-
-        <ul class="list networing">
-          <li class="item networing__item">
+  <div class="page-footer__unit page-footer__unit--bottom">
+    <div class="container page-footer__container">
+      <div class="pallet-group page-footer__pallet-group">
+        <ul class="list pallet-group__networing-list">
+          <li class="item pallet-group__networing-item">
             <a
-              class="link networing__link"
+              class="link pallet-group__networing-link"
               href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
               >Instagram</a
             >
           </li>
-          <li class="item networing__item">
+          <li class="item pallet-group__networing-item">
             <a
-              class="link networing__link"
+              class="link pallet-group__networing-link"
               href="https://www.youtube.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -71,6 +84,7 @@
             >
           </li>
         </ul>
+        <p class="pallet-group__copyright">&#xa9; Copyright 2020</p>
       </div>
     </div>
   </div>
